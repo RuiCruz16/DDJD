@@ -4,6 +4,12 @@
 
 > Made as a game project — an ocean survival experience with low-poly art and audio integrated via FMOD Studio.
 
+## Play now
+
+You can play **Adrift** directly in your browser on it.io:
+
+**[▶️ Play Adrift on it.io](https://ruicruz04.itch.io/adrift)**
+
 ## About the game
 
 The player wakes up alone on an endless ocean, clinging to a small raft. From there, every decision matters:
