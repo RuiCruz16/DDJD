@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c34b595efac1b63448dd8fd5d1344ab2, type: 3}
+  m_Name: Grill
+  m_EditorClassIdentifier: 
+  ingredients:
+  - item: {fileID: 11400000, guid: 7779efcaecf49184b99b29419410ae52, type: 2}
+    amount: 2
+  - item: {fileID: 11400000, guid: 82d979f76f5cffb408d6f4b7dd34e9bb, type: 2}
+    amount: 2
+  result: {fileID: 11400000, guid: 0e03070a21d90dc41b7af39b8effb72c, type: 2}
+  resultAmount: 1

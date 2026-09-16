@@ -1,0 +1,190 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6210884972498859372
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6711096005034353670}
+  - component: {fileID: 9006683623553200631}
+  - component: {fileID: 3641449564391501141}
+  - component: {fileID: -3112053715068818272}
+  - component: {fileID: 7909878430157694894}
+  m_Layer: 0
+  m_Name: PalmLeaf_prefab
+  m_TagString: Debris
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6711096005034353670
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6210884972498859372}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.78, y: 0, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 277121458579401843}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &9006683623553200631
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6210884972498859372}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.1567678, y: 0.91692996, z: 3.6096718}
+  m_Center: {x: 0.040830135, y: -0.129882, z: -1.3289555}
+--- !u!114 &3641449564391501141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6210884972498859372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 258efe737cc8cb649a1ef9092b66a49a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+  detectionRadius: 1
+  detectionDistance: 6
+  turnSpeed: 5
+  waterLevel: 0
+  floatAmplitude: 0.015
+  floatSpeed: 2.2
+  minSpinSpeed: 15
+  maxSpinSpeed: 30
+  lifeTime: 80
+--- !u!114 &-3112053715068818272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6210884972498859372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68aeb6de4267338449105319ac0932f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: d7741a2911057184fa423cf83259aa89, type: 2}
+  amount: 1
+  canBePickedUp: 1
+--- !u!114 &7909878430157694894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6210884972498859372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9792ece4f5771b6408329f8417da6a6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  floatingOffset: {x: 0, y: 2.2, z: 0}
+  interactionText: 
+  customFont: {fileID: 11400000, guid: 340096c34438ffb479018cff69f2f00d, type: 2}
+  fontSize: 60
+  textColor: {r: 1, g: 1, b: 1, a: 0.95}
+  borderColor: {r: 0.36, g: 0.22, b: 0.13, a: 1}
+  innerColor: {r: 0.68235296, g: 0.5294118, b: 0.41960785, a: 1}
+  horizontalPadding: 120
+  boxHeight: 120
+  canvasScale: 0.005
+  textureHeight: 320
+  borderThickness: 15
+  cornerRadius: 52
+  tailWidth: 120
+  tailHeight: 70
+  tailJoinInset: 16
+  textPaddingLeft: 40
+  textPaddingRight: 40
+  textPaddingTop: 18
+  textPaddingBottom: 18
+--- !u!1001 &311365212877753240
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6711096005034353670}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 097d4ef6c3f42fb499b7d4ee063eb052, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0000000027939677
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 097d4ef6c3f42fb499b7d4ee063eb052, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 097d4ef6c3f42fb499b7d4ee063eb052, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0000000037252903
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 097d4ef6c3f42fb499b7d4ee063eb052, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 097d4ef6c3f42fb499b7d4ee063eb052, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 097d4ef6c3f42fb499b7d4ee063eb052, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 097d4ef6c3f42fb499b7d4ee063eb052, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 097d4ef6c3f42fb499b7d4ee063eb052, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 097d4ef6c3f42fb499b7d4ee063eb052, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 097d4ef6c3f42fb499b7d4ee063eb052, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 097d4ef6c3f42fb499b7d4ee063eb052, type: 3}
+      propertyPath: m_Name
+      value: PalmLeaf
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 097d4ef6c3f42fb499b7d4ee063eb052, type: 3}
+--- !u!4 &277121458579401843 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 097d4ef6c3f42fb499b7d4ee063eb052, type: 3}
+  m_PrefabInstance: {fileID: 311365212877753240}
+  m_PrefabAsset: {fileID: 0}

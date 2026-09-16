@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0eb195a727028141b58f0da64521a8a, type: 3}
+  m_Name: Metal
+  m_EditorClassIdentifier: 
+  itemName: Metal
+  icon: {fileID: 21300000, guid: 61988c268fccb9e40bd84606b40f4ff9, type: 3}
+  maxStackSize: 10
+  itemPrefab: {fileID: 2318111940469534252, guid: b5005606fcc496d4c8a6b03d90226f08, type: 3}
+  handItemPrefab: {fileID: 2318111940469534252, guid: f98b73eda218b8e459c2466fc6959245, type: 3}
+  description: Buildind material
+  placementYOffset: 0
+  isConsumable: 0
+  thirstRestoreAmount: 0
+  hungerRestoreAmount: 0
+  turnIntoItemAfterUse: {fileID: 0}
+  isEmptyWaterBottle: 0
+  filledWater: {fileID: 0}
+  purifiedVersion: {fileID: 0}
+  isEquippable: 1
+  isWeapon: 0
+  isPlaceableStructure: 0
+  equipHint: 

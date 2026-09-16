@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0eb195a727028141b58f0da64521a8a, type: 3}
+  m_Name: Water
+  m_EditorClassIdentifier: 
+  itemName: Water Bottle
+  icon: {fileID: 21300000, guid: dba16f19037b5e946985fec16b491dc6, type: 3}
+  maxStackSize: 1
+  itemPrefab: {fileID: 3644702542526219307, guid: 8fdc6a7648790c243863b9f6a25c2691, type: 3}
+  handItemPrefab: {fileID: 3644702542526219307, guid: bb5696dd78744b845893ed265624153c, type: 3}
+  description: Drinkable water
+  placementYOffset: 0
+  isConsumable: 1
+  thirstRestoreAmount: 30
+  hungerRestoreAmount: 0
+  turnIntoItemAfterUse: {fileID: 11400000, guid: dda2c020db0f20149a9496124e67c6c7, type: 2}
+  isEmptyWaterBottle: 0
+  filledWater: {fileID: 0}
+  purifiedVersion: {fileID: 0}
+  isEquippable: 1
+  isWeapon: 0
+  isPlaceableStructure: 0
+  equipHint: <color=black>Right-Click</color> to drink!

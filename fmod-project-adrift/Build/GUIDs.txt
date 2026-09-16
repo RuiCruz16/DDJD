@@ -1,0 +1,14 @@
+{a1b08032-2181-4309-b5cf-1d74964e4da3} bank:/Bank for testing
+{d9230166-587a-4f0d-8dd6-447b35afb621} bank:/Master
+{413e21b2-2901-034f-0b9f-ce85c45cb0b9} bank:/Master.strings
+{f4f34d8e-1e50-4e38-8d8c-652e0f50ebe5} bus:/
+{498a26e2-3f62-4b66-baec-84695ca608ba} bus:/Reverb
+{7797c95d-6e04-481b-91bb-4861c3d7dee0} event:/Ambience
+{49b979c1-fb6b-4a51-b5a8-2f28a0ae68c6} event:/BlockPlace
+{ba72982d-8c3d-40d7-afa3-b4928a95c38e} event:/Damage
+{9fed6897-616d-4e9e-ac61-556e6796c64a} event:/Diving
+{f8fb187e-8fad-4c21-b7b7-625eaf7212d2} event:/Drop
+{40185cdf-6cd9-4af3-a2c5-c2acbf1f5983} event:/FishingRodThrow
+{938e1093-05dc-4693-911d-08184b4d9df8} event:/Pickup
+{76e409b9-105d-4ce4-a30c-26c56ab7421b} event:/Swimming
+{33cf790a-910c-45af-b192-575e3f4dd986} event:/Walking

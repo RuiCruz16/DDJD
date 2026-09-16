@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0eb195a727028141b58f0da64521a8a, type: 3}
+  m_Name: Crafting Table
+  m_EditorClassIdentifier: 
+  itemName: Crafting Table
+  icon: {fileID: 21300000, guid: 253766ddce92e6347a1e6b5cdc9f1c7a, type: 3}
+  maxStackSize: 1
+  itemPrefab: {fileID: 236371862819353906, guid: de2077ee7cbb24b409d3bee6553147ce, type: 3}
+  handItemPrefab: {fileID: 236371862819353906, guid: d8e5ce4eef991124b8de03d28feeda9d, type: 3}
+  description: Learn & Craft
+  isConsumable: 0
+  thirstRestoreAmount: 0
+  hungerRestoreAmount: 0
+  turnIntoItemAfterUse: {fileID: 0}
+  isEmptyWaterBottle: 0
+  filledWater: {fileID: 0}
+  purifiedVersion: {fileID: 0}
+  isEquippable: 1
+  isPlaceableStructure: 1

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0eb195a727028141b58f0da64521a8a, type: 3}
+  m_Name: Raw Fish
+  m_EditorClassIdentifier: 
+  itemName: Raw Fish
+  icon: {fileID: 21300000, guid: 00d6ccf13e878004da356b58de10de52, type: 3}
+  maxStackSize: 10
+  itemPrefab: {fileID: 8320615586427611475, guid: 93388b148f5663144a821e195fd2467a, type: 3}
+  handItemPrefab: {fileID: 8320615586427611475, guid: 0218a6409d160ff4d84ad133c6fc8159, type: 3}
+  description: 'Food '
+  placementYOffset: 0
+  isConsumable: 0
+  thirstRestoreAmount: 0
+  hungerRestoreAmount: 0
+  turnIntoItemAfterUse: {fileID: 0}
+  isEmptyWaterBottle: 0
+  filledWater: {fileID: 0}
+  purifiedVersion: {fileID: 0}
+  isEquippable: 1
+  isWeapon: 0
+  isPlaceableStructure: 0
+  equipHint: I shouldn't eat this raw. I need to cook it on a <color=black>Grill</color>.
